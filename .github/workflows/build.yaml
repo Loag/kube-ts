@@ -1,0 +1,34 @@
+name: Build kube-ts client
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out Repository
+      uses: actions/checkout@v4
+
+    - name: Download file using wget
+      run: wget -O kubernetes-openapi-spec.json https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/api/openapi-spec/swagger.json          
+
+    - uses: microsoft/setup-kiota@v0.5.0
+
+    - name: build client
+      run: kiota generate -l typescript -d kubernetes-openapi-spec.json -c kubeApi_ts -o ./client
+    
+    - name: cleanup
+      run: rm -rf kubernetes-openapi-spec.json
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Updated kube-ts client"
+        git push
