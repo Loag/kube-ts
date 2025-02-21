@@ -13,7 +13,7 @@ import { type WatchRequestBuilder, WatchRequestBuilderNavigationMetadata } from 
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/admissionregistration.k8s.io/v1beta1/
+ * Builds and executes requests for operations under /apis/admissionregistration.k8s.io/v1beta1
  */
 export interface V1beta1RequestBuilder extends BaseRequestBuilder<V1beta1RequestBuilder> {
     /**
@@ -44,7 +44,7 @@ export interface V1beta1RequestBuilder extends BaseRequestBuilder<V1beta1Request
 /**
  * Uri template for the request builder.
  */
-export const V1beta1RequestBuilderUriTemplate = "{+baseurl}/apis/admissionregistration.k8s.io/v1beta1/";
+export const V1beta1RequestBuilderUriTemplate = "{+baseurl}/apis/admissionregistration.k8s.io/v1beta1";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

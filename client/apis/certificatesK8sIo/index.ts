@@ -11,7 +11,7 @@ import { type V1alpha1RequestBuilder, V1alpha1RequestBuilderNavigationMetadata, 
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/certificates.k8s.io/
+ * Builds and executes requests for operations under /apis/certificates.k8s.io
  */
 export interface CertificatesK8sIoRequestBuilder extends BaseRequestBuilder<CertificatesK8sIoRequestBuilder> {
     /**
@@ -38,7 +38,7 @@ export interface CertificatesK8sIoRequestBuilder extends BaseRequestBuilder<Cert
 /**
  * Uri template for the request builder.
  */
-export const CertificatesK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/certificates.k8s.io/";
+export const CertificatesK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/certificates.k8s.io";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

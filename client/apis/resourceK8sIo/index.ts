@@ -11,7 +11,7 @@ import { type V1beta1RequestBuilder, V1beta1RequestBuilderNavigationMetadata, V1
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/resource.k8s.io/
+ * Builds and executes requests for operations under /apis/resource.k8s.io
  */
 export interface ResourceK8sIoRequestBuilder extends BaseRequestBuilder<ResourceK8sIoRequestBuilder> {
     /**
@@ -38,7 +38,7 @@ export interface ResourceK8sIoRequestBuilder extends BaseRequestBuilder<Resource
 /**
  * Uri template for the request builder.
  */
-export const ResourceK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/resource.k8s.io/";
+export const ResourceK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/resource.k8s.io";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

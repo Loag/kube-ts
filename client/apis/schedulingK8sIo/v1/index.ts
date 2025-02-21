@@ -11,7 +11,7 @@ import { type WatchRequestBuilder, WatchRequestBuilderNavigationMetadata } from 
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/scheduling.k8s.io/v1/
+ * Builds and executes requests for operations under /apis/scheduling.k8s.io/v1
  */
 export interface V1RequestBuilder extends BaseRequestBuilder<V1RequestBuilder> {
     /**
@@ -38,7 +38,7 @@ export interface V1RequestBuilder extends BaseRequestBuilder<V1RequestBuilder> {
 /**
  * Uri template for the request builder.
  */
-export const V1RequestBuilderUriTemplate = "{+baseurl}/apis/scheduling.k8s.io/v1/";
+export const V1RequestBuilderUriTemplate = "{+baseurl}/apis/scheduling.k8s.io/v1";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

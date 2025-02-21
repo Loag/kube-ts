@@ -13,7 +13,7 @@ import { type V1beta1RequestBuilder, V1beta1RequestBuilderNavigationMetadata, V1
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/storage.k8s.io/
+ * Builds and executes requests for operations under /apis/storage.k8s.io
  */
 export interface StorageK8sIoRequestBuilder extends BaseRequestBuilder<StorageK8sIoRequestBuilder> {
     /**
@@ -44,7 +44,7 @@ export interface StorageK8sIoRequestBuilder extends BaseRequestBuilder<StorageK8
 /**
  * Uri template for the request builder.
  */
-export const StorageK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/storage.k8s.io/";
+export const StorageK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/storage.k8s.io";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

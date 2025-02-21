@@ -51,7 +51,7 @@ import { StoragemigrationK8sIoRequestBuilderNavigationMetadata, Storagemigration
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis
+ * Builds and executes requests for operations under /apis/
  */
 export interface ApisRequestBuilder extends BaseRequestBuilder<ApisRequestBuilder> {
     /**

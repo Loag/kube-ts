@@ -9,7 +9,7 @@ import { type V1RequestBuilder, V1RequestBuilderNavigationMetadata, V1RequestBui
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/policy/
+ * Builds and executes requests for operations under /apis/policy
  */
 export interface PolicyRequestBuilder extends BaseRequestBuilder<PolicyRequestBuilder> {
     /**
@@ -32,7 +32,7 @@ export interface PolicyRequestBuilder extends BaseRequestBuilder<PolicyRequestBu
 /**
  * Uri template for the request builder.
  */
-export const PolicyRequestBuilderUriTemplate = "{+baseurl}/apis/policy/";
+export const PolicyRequestBuilderUriTemplate = "{+baseurl}/apis/policy";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

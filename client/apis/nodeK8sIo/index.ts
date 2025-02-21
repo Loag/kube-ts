@@ -9,7 +9,7 @@ import { type V1RequestBuilder, V1RequestBuilderNavigationMetadata, V1RequestBui
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/node.k8s.io/
+ * Builds and executes requests for operations under /apis/node.k8s.io
  */
 export interface NodeK8sIoRequestBuilder extends BaseRequestBuilder<NodeK8sIoRequestBuilder> {
     /**
@@ -32,7 +32,7 @@ export interface NodeK8sIoRequestBuilder extends BaseRequestBuilder<NodeK8sIoReq
 /**
  * Uri template for the request builder.
  */
-export const NodeK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/node.k8s.io/";
+export const NodeK8sIoRequestBuilderUriTemplate = "{+baseurl}/apis/node.k8s.io";
 /**
  * Metadata for all the navigation properties in the request builder.
  */

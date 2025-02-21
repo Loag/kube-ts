@@ -9,7 +9,7 @@ import { type V1RequestBuilder, V1RequestBuilderNavigationMetadata, V1RequestBui
 import { type BaseRequestBuilder, type KeysToExcludeForNavigationMetadata, type NavigationMetadata, type Parsable, type ParsableFactory, type RequestConfiguration, type RequestInformation, type RequestsMetadata } from '@microsoft/kiota-abstractions';
 
 /**
- * Builds and executes requests for operations under /apis/batch/
+ * Builds and executes requests for operations under /apis/batch
  */
 export interface BatchRequestBuilder extends BaseRequestBuilder<BatchRequestBuilder> {
     /**
@@ -32,7 +32,7 @@ export interface BatchRequestBuilder extends BaseRequestBuilder<BatchRequestBuil
 /**
  * Uri template for the request builder.
  */
-export const BatchRequestBuilderUriTemplate = "{+baseurl}/apis/batch/";
+export const BatchRequestBuilderUriTemplate = "{+baseurl}/apis/batch";
 /**
  * Metadata for all the navigation properties in the request builder.
  */
